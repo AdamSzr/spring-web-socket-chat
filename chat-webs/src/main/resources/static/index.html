@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <!--        <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.js"  />-->
+
+    <script src="./stomp.js" defer > </script>
+    <script src="./script.js" defer > </script>
+</head>
+
+<body onload="connect()">
+    <div>
+
+        <label>wpisz wiad</label>
+        <input id="chat-input">
+        <button onclick="sendMessage()">wyslij</button>
+        <div id="chat-table">
+            <div><h1> Tablica wiadomości</h1></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
